@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField />
+      <HBox spacing="30.0">
+         <children>
+            <RadioButton mnemonicParsing="false" text="Event" />
+            <RadioButton mnemonicParsing="false" text="Task" />
+         </children>
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox spacing="10.0">
+         <children>
+            <DatePicker />
+            <TextField />
+            <Label text="to" />
+            <TextField />
+         </children>
+      </HBox>
+      <HBox spacing="10.0">
+         <children>
+            <HBox prefHeight="25.0" prefWidth="290.0" />
+            <Button mnemonicParsing="false" text="Save" />
+            <Button mnemonicParsing="false" text="Discard" />
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</VBox>
