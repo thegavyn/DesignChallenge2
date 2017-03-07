@@ -36,8 +36,8 @@
             <Pane prefWidth="200.0" />
             <HBox>
                <children>
-                  <Button mnemonicParsing="false" text="Day" />
-                  <Button mnemonicParsing="false" text="Agenda" />
+                  <Button fx:id="dayViewButton" mnemonicParsing="false" onAction="#loadDayView" text="Day" />
+                  <Button fx:id="agendaViewButton" mnemonicParsing="false" onAction="#loadAgendaView" text="Agenda" />
                </children>
             </HBox>
          </children>
@@ -52,7 +52,7 @@
    <left>
       <VBox fx:id="sideBarVBox" prefHeight="200.0" prefWidth="100.0" spacing="10.0" BorderPane.alignment="CENTER">
          <children>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Create" />
+            <Button fx:id="createViewButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#loadCreateView" text="Create" />
             <VBox fx:id="miniCalendarVBox" prefHeight="200.0" prefWidth="100.0" style="-fx-effect: null">
                <children>
                   <!-- <DatePicker fx:id="calendarDatePicker" /> -->
