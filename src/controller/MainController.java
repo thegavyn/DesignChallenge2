@@ -46,6 +46,6 @@ public class MainController {
         Node popupContent = datePickerSkin.getPopupContent();
 
         miniCalendarVBox.getChildren().add(popupContent);
-        loadCreateView();
+        loadDayView();
     }
 }
