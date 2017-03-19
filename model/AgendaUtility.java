@@ -27,10 +27,62 @@ public class AgendaUtility {
 
             sortedAgendas.add(min);
             agendasCopy.remove(min);
+			
+			//for (Agenda agenda : sortedAgendas) {
+			//	System.out.println(agenda);
+			//}
+			//System.out.println();
+			//for (Agenda agenda : agendasCopy) {
+			//	System.out.println(agenda);
+			//}
+			//System.out.println();
+			//System.out.println();
         }
 
         return sortedAgendas;
     }
+	
+	public static void checkForFinishedEvents(List<Agenda> agenda, LocalDate currentDate) {
+		for (Agenda a : agenda) {
+			if (a instanceof Event)
+				if (a.getStartDate().toLocalDate().isBefore(currentDate)) {
+					a.markAsFinished();
+				}
+		}
+	}
+
+	public static List sortAgendaByDateTime(List<Agenda> agendas) {
+        List<Agenda> agendasCopy = new ArrayList<>(agendas);
+        List<Agenda> sortedAgendas = new ArrayList<>();
+        int size = agendas.size();
+
+        while (sortedAgendas.size() < size) {
+            Agenda min = agendasCopy.get(0);
+
+            for (int i = 0; i < agendasCopy.size(); i++) {
+                if (agendasCopy.get(i).getStartDate().isBefore(min.getStartDate())) {
+                    min = agendasCopy.get(i);
+                }
+            }
+
+            sortedAgendas.add(min);
+            agendasCopy.remove(min);
+			
+			//for (Agenda agenda : sortedAgendas) {
+			//	System.out.println(agenda);
+			//}
+			//System.out.println();
+			//for (Agenda agenda : agendasCopy) {
+			//	System.out.println(agenda);
+			//}
+			//System.out.println();
+			//System.out.println();
+        }
+
+        return sortedAgendas;
+    }
+	
+	
 
     public static void markFinishedEvents(List<Event> events, LocalDate currentDate) {
         for (Event e : events) {

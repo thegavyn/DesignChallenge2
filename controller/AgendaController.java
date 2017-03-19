@@ -120,8 +120,12 @@ public class AgendaController {
         if (finishedTasksFlag)
             agendas.addAll(model.getTaskManager().getFinishedTasks());
 
-        agendas = AgendaUtility.getCertainDateAgendas(agendas, MainController.currentDate);
-
+        //agendas = AgendaUtility.getCertainDateAgendas(agendas, MainController.currentDate);
+		agendas = AgendaUtility.sortAgendaByDateTime(agendas);
+		//for (Agenda agenda : agendas) {
+		//	System.out.println(agenda);
+		//}
+		
         if (agendas.isEmpty()) {
             agendaGridPane.getChildren().clear();
 
@@ -155,8 +159,9 @@ public class AgendaController {
             if (finishedTasksFlag)
                 agendas.addAll(model.getTaskManager().getFinishedTasks());
 
-            agendas = AgendaUtility.sortAgendaByTime(agendas);
-            agendas = AgendaUtility.getCertainDateAgendas(agendas, MainController.currentDate);
+			AgendaUtility.checkForFinishedEvents(agendas, MainController.currentDate);
+            agendas = AgendaUtility.sortAgendaByDateTime(agendas);
+            //agendas = AgendaUtility.getCertainDateAgendas(agendas, MainController.currentDate);
 
             String line;
 
@@ -247,7 +252,7 @@ public class AgendaController {
                 });
 
 
-                if (dateHeader == null || dateHeader.isBefore(a.getStartDate().toLocalDate())) {
+                if (dateHeader == null || !dateHeader.equals(a.getStartDate().toLocalDate())) {
                     dateHeader = a.getStartDate().toLocalDate();
                     Text dateHeaderText = new Text(dateHeader.format(DateTimeFormatter.ofPattern("MMM dd, yyyy")));
                     agendaGridPane.add(dateHeaderText, 0, row);
