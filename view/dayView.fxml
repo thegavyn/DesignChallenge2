@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" layoutY="14.0" prefHeight="400.0" prefWidth="600.0">
+         <content>
+            <HBox>
+               <children>
+                  <VBox nodeOrientation="RIGHT_TO_LEFT" prefWidth="100.0">
+                     <children>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="00:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="01:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="02:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="03:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="04:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="05:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="06:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="07:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="08:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="09:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="10:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="11:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="12:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="13:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="14:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="15:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="16:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="17:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="18:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="19:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="20:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="21:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="22:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="BASELINE_LEFT" prefHeight="60.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label text="23:00" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="agendaColumn" prefWidth="500.0">
+                     <children>
+                        <HBox fx:id="cell0000" prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="cell0030" prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="cell0100" prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="cell0130" prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="cell0200" prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="cell0230" prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="cell0300" prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="cell0330" prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="cell0400" prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="cell0430" prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="cell0500" prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="cell0530" prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="cell0600" prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="cell0630" prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="cell0700" prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0" style="-fx-border-color: d3d3d3;">
+                           <children>
+                              <Label />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </content>
+      </ScrollPane>
+   </children>
+</Pane>
