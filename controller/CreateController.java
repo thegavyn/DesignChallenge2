@@ -27,7 +27,7 @@ import java.util.Observer;
 /**
  * Created by Mina on 3/8/2017.
  */
-public class CreateController {
+public class CreateController extends Controller {
     @FXML TextField nameTextField;
     @FXML ToggleGroup typeSelection;
     @FXML DatePicker calendarDatePicker;
@@ -38,11 +38,12 @@ public class CreateController {
     @FXML Button saveButton;
     @FXML Button discardButton;
 
-    private CalendarModel model;
+    //private CalendarModel model;
     List<String> timeList;
 
     public CreateController(CalendarModel model) {
-        this.model = model;
+        //this.model = model;
+		super(model);
     }
 
     public void saveFormData(ActionEvent actionEvent) {

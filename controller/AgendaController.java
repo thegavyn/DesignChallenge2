@@ -28,7 +28,7 @@ import java.util.List;
 /**
  * Created by Mina on 3/11/2017.
  */
-public class AgendaController {
+public class AgendaController extends Controller {
     @FXML
     private GridPane agendaGridPane;
     @FXML
@@ -36,7 +36,7 @@ public class AgendaController {
     @FXML
     private ToggleButton showFinishedTasksToggleButton;
 
-    private CalendarModel model;
+    //private CalendarModel model;
     private List<Agenda> markedForCompletion;
     private List<HBox> agendaEntries;
     private List<Integer> agendaRowIndeces;
@@ -45,7 +45,8 @@ public class AgendaController {
     private boolean finishedTasksFlag;
 
     public AgendaController(CalendarModel model) {
-        this.model = model;
+        //this.model = model;
+		super(model);
         markedForCompletion = new ArrayList<>();
         agendaEntries = new ArrayList<>();
         agendaRowIndeces = new ArrayList<>();
@@ -241,9 +242,15 @@ public class AgendaController {
                         Agenda agenda = agendaHashMap.get(GridPane.getRowIndex(deleteButton));
 
                         if (agenda instanceof Event) {
-                            model.getEventManager().getEvents().remove(agenda);
+							if (model.getEventManager().getFinishedEvents().contains(agenda))
+								model.getEventManager().getFinishedEvents().remove(agenda);
+							else
+								model.getEventManager().getEvents().remove(agenda);
                         } else if (agenda instanceof Task) {
-                            model.getTaskManager().getTodoList().remove(agenda);
+							if (model.getTaskManager().getFinishedTasks().contains(agenda))
+								model.getTaskManager().getFinishedTasks().remove(agenda);
+							else
+								model.getTaskManager().getTodoList().remove(agenda);
                         }
 
                         model.notifyObservers();

@@ -16,7 +16,7 @@ public class CalendarModel extends Subject {
     }
 
     public EventManager getEventManager() {
-        notifyObservers();
+        //notifyObservers();
         return eventManager;
     }
 

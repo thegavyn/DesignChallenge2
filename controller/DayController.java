@@ -20,14 +20,15 @@ import java.util.List;
 /**
  * Created by Mina on 3/11/2017.
  */
-public class DayController {
+public class DayController extends Controller {
 
     @FXML private VBox agendaColumn;
 
-    private CalendarModel model;
+    //private CalendarModel model;
 
     public DayController(CalendarModel model) {
-        this.model = model;
+        //this.model = model;
+		super(model);
     }
 
     public void placeEntry(Agenda agenda) {
